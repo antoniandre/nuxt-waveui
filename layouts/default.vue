@@ -1,5 +1,7 @@
 <template>
-  <Nuxt />
+  <w-app>
+    <Nuxt />
+  </w-app>
 </template>
 
 <style>

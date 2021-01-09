@@ -28,11 +28,19 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
+    'wave-ui/nuxt'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
   ],
+
+  waveui: {
+    colors: {
+      primary: '#9ac332',
+      secondary: '#5d9a26',
+    }
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
