@@ -3,7 +3,7 @@
     <div>
       <Logo />
       <h1 class="title">
-        nuxt-test
+        nuxt-waveui
       </h1>
       <div class="links">
         <a
