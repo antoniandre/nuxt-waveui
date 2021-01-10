@@ -13,10 +13,10 @@
 
     ```js
     buildModules: [
-      'wave-ui/nuxt' // Simple config.
+      '@wave-ui/nuxt' // Simple config.
 
       // Or with options.
-      // ['wave-ui/nuxt', { /* Wave UI config here. */ }]
+      // ['@wave-ui/nuxt', { /* Wave UI config here. */ }]
     ],
     ```
 
@@ -48,7 +48,7 @@ In nuxt.config.js, add this:
   ```js
   buildModules: [
     [
-      'wave-ui/nuxt',
+      '@wave-ui/nuxt',
       {
         // Your Wave UI config here.
 
