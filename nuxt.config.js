@@ -28,22 +28,37 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    '@wave-ui/nuxt'
+    // '@wave-ui/nuxt' // Simple config.
+
+    [
+      '@wave-ui/nuxt', {
+        colors: {
+          primary: '#9ac332',
+          secondary: '#5d9a26',
+        },
+        useScss: '~/scss/_variables.scss'
+      }
+    ]
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
   ],
 
-  WaveUI: {
-    colors: {
-      primary: '#9ac332',
-      secondary: '#5d9a26',
-    },
-    scssVariables: '~/scss/_variables.scss'
-  },
+  // Also possible to define the Wave UI config here outside of the buildModules.
+  // WaveUI: {
+  //   colors: {
+  //     primary: '#9ac332',
+  //     secondary: '#5d9a26',
+  //   },
+  //   // useScss: '~/scss/_variables.scss'
+  // },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+
+  router: {
+    base: '/nuxt-waveui/dist'
   }
 }
