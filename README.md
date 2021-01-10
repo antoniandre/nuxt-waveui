@@ -2,7 +2,14 @@
 
 ## To setup Wave UI in Nuxt.
 
-1. In nuxt.config.js, add this:
+1. Install the dependencies:
+
+    - `npm i wave-ui`
+    - `npm i -D @wave-ui/nuxt pug pug-plain-loader node-sass sass-loader`
+
+    _The dev dependenies are only needed for building the project. They will not ship on production.__
+
+2. In nuxt.config.js, add this:
 
     ```js
     buildModules: [
@@ -10,9 +17,9 @@
     ],
 
     waveui: {
+      // Your Wave UI configuration goes here.
       colors: {
-        primary: '#9ac332',
-        secondary: '#5d9a26',
+        primary: '#9ac332'
       },
       // You can override the Wave UI SCSS variables in a custom file.
       // scssVariables: '~/scss/_variables.scss'
@@ -20,7 +27,7 @@
     ```
 
 
-2. in default.vue, wrap the `nuxt` component in a `w-app`:
+3. in default.vue, wrap the `nuxt` component in a `w-app`:
 
     ```html
     <template>
@@ -30,16 +37,8 @@
     </template>
     ```
 
-3. You can now try to add a `w-button` in the `pages/index.vue`:
+4. You can now try to add a `w-button` in the `pages/index.vue`:
 
     ```html
     <w-button>Testing</w-button>
     ```
-
-
-    "node-sass": "*",
-    "pug": "^3.0.0",
-    "pug-plain-loader": "^1.1.0",
-    "sass-loader": "*",
-    "vue": "^2.0.0",
-    "wave-ui": "^1.15.0"
