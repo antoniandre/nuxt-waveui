@@ -13,7 +13,9 @@
       colors: {
         primary: '#9ac332',
         secondary: '#5d9a26',
-      }
+      },
+      // You can override the Wave UI SCSS variables in a custom file.
+      // scssVariables: '~/scss/_variables.scss'
     }
     ```
 
@@ -33,3 +35,11 @@
     ```html
     <w-button>Testing</w-button>
     ```
+
+
+    "node-sass": "*",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.1.0",
+    "sass-loader": "*",
+    "vue": "^2.0.0",
+    "wave-ui": "^1.15.0"
