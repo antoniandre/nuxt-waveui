@@ -13,17 +13,11 @@
 
     ```js
     buildModules: [
-      'wave-ui/nuxt'
-    ],
+      'wave-ui/nuxt' // Simple config.
 
-    waveui: {
-      // Your Wave UI configuration goes here.
-      colors: {
-        primary: '#9ac332'
-      },
-      // You can override the Wave UI SCSS variables in a custom file.
-      // scssVariables: '~/scss/_variables.scss'
-    }
+      // Or with options.
+      // ['wave-ui/nuxt', { /* Wave UI config here. */ }]
+    ],
     ```
 
 
@@ -42,3 +36,25 @@
     ```html
     <w-button>Testing</w-button>
     ```
+
+_____
+
+
+
+## For more customization, if you use SCSS.
+
+In nuxt.config.js, add this:
+
+  ```js
+  buildModules: [
+    [
+      'wave-ui/nuxt',
+      {
+        // Your Wave UI config here.
+
+        // Path to your SCSS variables.
+        useScss: '~/scss/_variables.scss'
+      }
+    ]
+  ],
+  ```
