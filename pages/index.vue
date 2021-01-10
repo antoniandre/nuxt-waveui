@@ -24,6 +24,8 @@
         </a>
 
         <w-button>Testing</w-button>
+        <w-icon class="ml3">wi-star</w-icon>
+        <p>{{ $waveui.breakpoint }}</p>
       </div>
     </div>
   </div>
