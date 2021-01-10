@@ -9,14 +9,15 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "@wave-ui/nuxt": "file:../@wave-ui:nuxt",
     "core-js": "^3.6.5",
-    "node-sass": "^5.0.0",
     "nuxt": "^2.14.6",
-    "pug": "^3.0.0",
-    "pug-plain-loader": "^1.1.0",
-    "sass-loader": "^10.1.0",
     "wave-ui": "^1.15.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@wave-ui/nuxt": "^1.0.1",
+    "node-sass": "^5.0.0",
+    "pug": "^3.0.0",
+    "pug-plain-loader": "^1.1.0",
+    "sass-loader": "^10.1.0"
+  }
 }
