@@ -11,13 +11,13 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
-    "wave-ui": "^1.15.0"
+    "wave-ui": "^1.18.0"
   },
   "devDependencies": {
-    "@wave-ui/nuxt": "^1.0.1",
+    "@wave-ui/nuxt": "^1.0.2",
     "node-sass": "^5.0.0",
     "pug": "^3.0.0",
     "pug-plain-loader": "^1.1.0",
-    "sass-loader": "^10.1.0"
+    "sass-loader": "^10.1.1"
   }
 }

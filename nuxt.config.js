@@ -29,7 +29,6 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // '@wave-ui/nuxt' // Simple config.
-
     [
       '@wave-ui/nuxt', {
         colors: {
@@ -56,6 +55,7 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    transpile: ['wave-ui'] // Needed when using the `useScss` option.
   },
 
   router: {
