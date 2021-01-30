@@ -1,5 +1,12 @@
-# nuxt-waveui
+# Nuxt + Wave UI demo project
 
+
+## Official documentation about Wave UI installation on Nuxt
+> [//antoniandre.github.io/wave-ui/getting-started#installation-on-nuxt](https://antoniandre.github.io/wave-ui/getting-started#installation-on-nuxt)
+
+___
+
+<!--
 ## To setup Wave UI in Nuxt.
 
 1. Install the dependencies:
@@ -57,4 +64,4 @@ In nuxt.config.js, add this:
       }
     ]
   ],
-  ```
+  ``` -->
