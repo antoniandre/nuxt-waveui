@@ -35,7 +35,7 @@ export default {
           primary: '#9ac332',
           secondary: '#5d9a26',
         },
-        // useScss: '~/scss/_variables.scss'
+        useScss: '~/scss/_variables.scss'
       }
     ]
   ],
@@ -54,7 +54,7 @@ export default {
   // },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  // build: {
-  //   transpile: ['wave-ui'] // Needed when using the `useScss` option.
-  // },
+  build: {
+    transpile: ['wave-ui'] // Needed when using the `useScss` option.
+  },
 }
