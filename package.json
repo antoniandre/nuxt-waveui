@@ -11,7 +11,7 @@
   "dependencies": {
     "core-js": "^3.6.5",
     "nuxt": "^2.14.6",
-    "wave-ui": "^1.18.0"
+    "wave-ui": "^1.32.6"
   },
   "devDependencies": {
     "@wave-ui/nuxt": "^1.0.2",
